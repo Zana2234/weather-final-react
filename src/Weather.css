@@ -4,6 +4,9 @@
   padding: 16px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 40px;
 }
 
 .Weather h1 {
@@ -46,4 +49,12 @@
   position: relative;
   line-height: 1;
   top: -34px;
+}
+.Weather .search-button {
+  background-color: #4c65bc;
+  box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 8px 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
 }
